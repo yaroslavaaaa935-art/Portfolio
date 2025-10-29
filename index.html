@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио — Ярослава Юдина</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <nav class="navbar">
+    <div class="logo">Ярослава Юдина</div>
+    <ul class="nav-links">
+      <li><a href="#about">Обо мне</a></li>
+      <li><a href="#vision">Мое видение</a></li>
+      <li><a href="#mission">Моя миссия</a></li>
+      <li><a href="#works">Работы</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <h1>PORTFOLIO</h1>
+    <p>Graphic Designer</p>
+  </header>
+
+  <!-- Обо мне -->
+  <section id="about" class="section about">
+    <div class="text">
+      <h2>Обо мне</h2>
+      <p>Привет! Я — Ярослава Юдина, студентка 4 курса направления «Прикладная информатика в дизайне». Специализируюсь на графическом дизайне и развиваюсь в области дизайна упаковки. Люблю работать с визуальной айдентикой и создавать стильные решения для брендов.</p>
+      <p>Вдохновляюсь минимализмом, скандинавской эстетикой и современными трендами в digital-дизайне.</p>
+    </div>
+    <div class="image">
+      <img src="img/заставка1.jpg" alt="Ярослава Юдина">
+    </div>
+  </section>
+
+  <!-- Vision -->
+  <section id="vision" class="section vision">
+    <div class="image">
+      <img src="img/видение.jpg" alt="Vision">
+    </div>
+    <div class="text">
+      <h2>Мое видение</h2>
+      <p>Создавать проекты, которые объединяют эстетику и функциональность. Вдохновлять пользователей через дизайн и формировать визуальные решения, которые помогают бизнесу выделяться и быть ближе к своей аудитории.</p>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section id="mission" class="section mission">
+    <div class="text">
+      <h2>Моя миссия</h2>
+      <p>Моя миссия — проектировать дизайн, который работает на результат. Я верю, что хороший визуал помогает людям лучше понимать продукт, а брендам находить свой уникальный голос.</p>
+    </div>
+    <div class="image">
+      <img src="img/миссия.jpg" alt="Mission">
+    </div>
+  </section>
+
+<!-- Работы -->
+<section id="works" class="section works">
+  <h2>Мои работы</h2>
+
+  <div class="slider-container">
+    <div class="slider" id="slider">
+      <div class="slide"><img src="img/работа1.jpg" alt="Работа 1"></div>
+      <div class="slide"><img src="img/работа2.jpg" alt="Работа 2"></div>
+      <div class="slide"><img src="img/работа3.jpg" alt="Работа 3"></div>
+      <div class="slide"><img src="img/работа4.jpg" alt="Работа 4"></div>
+    </div>
+
+    <!-- Кнопки -->
+    <button class="prev" onclick="prevSlide()">‹</button>
+    <button class="next" onclick="nextSlide()">›</button>
+  </div>
+</section>
+
+
+  <!-- Контакты -->
+  <section id="contacts" class="section contacts">
+    <h2>Контакты</h2>
+    <p>E-mail: <a href="mailto:yaroslava@example.com">yaroslava@example.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    Разработка сайта заняла <span>~25 минут</span> с помощью нейросети <span>ChatGPT (OpenAI)</span>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
